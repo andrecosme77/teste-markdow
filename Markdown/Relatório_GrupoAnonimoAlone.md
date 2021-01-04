@@ -1,21 +1,10 @@
 ﻿# MiniProjeto - ***Introdução á computação***
 ### Descrição do projeto :
 **Fluxograma**
-```mermaid
-sequenceDiagram
-Menu ->> Game Loop: 
-Game Loop -> sos: 
-sos ->> Menu: 
-Game Loop ->> read: 
-Game Loop ->> trigger:   
-Game Loop ->> plant: 
-Game Loop ->> quit: 
-read ->> plant: 
-trigger ->> Game Loop:   
-quit -> exit: 
-```
-![image](Diagrama_UML_MiniProjeto.png)
 
+![image](Fluxograma_MiniProjeto.png)
+
+![image](Diagrama_UML_MiniProjeto.png)
 
 ## Método utilizado para teste e debug
 -   Utilizei maioritariamente o Repl.it para teste e debug do projecto mas também utilizei o Visual Studio Code com software de auxílio.
